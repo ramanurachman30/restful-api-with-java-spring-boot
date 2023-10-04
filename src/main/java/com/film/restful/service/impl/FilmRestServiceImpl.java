@@ -1,6 +1,7 @@
 package com.film.restful.service.impl;
 
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -23,5 +24,20 @@ public class FilmRestServiceImpl implements FilmRestService {
     @Override
     public List<FilmRest> getAll() {
         return filmRestRepository.findAll();
+    }
+
+    @Override
+    public FilmRest getDataById(long id) {
+        return filmRestRepository.getById(id);
+    }
+
+    @Override
+    public Optional<FilmRest> findDataById(long id) {
+        return filmRestRepository.findById(id);
+    }
+
+    @Override
+    public void deleteDataById(long id) {
+        filmRestRepository.deleteById(id);
     }
 }

@@ -1,5 +1,7 @@
 package com.film.restful.controller;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.List;
 import java.util.Optional;
 
@@ -17,6 +19,7 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.multipart.MultipartFile;
 
 import com.film.restful.constant.FilmRestConstant;
 import com.film.restful.contract.request.RequestFilmRest;
@@ -112,5 +115,21 @@ public class FilmRestController {
         sg.setDescription("Film dengan id " + id + " Berhasil dihapus");
         response.setResponseGeneral(sg);
         return new ResponseEntity<>(response, HttpStatus.OK);
+    }
+
+    @PostMapping("/upload")
+    public String handleFileUpload(@RequestParam("file") MultipartFile file) {  
+        try {
+            // Get the original file name
+            String fileName = file.getOriginalFilename();
+
+            // Save the file to a specific directory
+            file.transferTo(new File("path/to/save/" + fileName));
+
+            return "File uploaded successfully!";
+        } catch (IOException e) {
+            e.printStackTrace();
+            return "Failed to upload file.";
+        }
     }
 }

@@ -61,7 +61,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
         // We don't need CSRF for this example
         httpSecurity.csrf().disable()
                 // dont authenticate this particular request
-                .authorizeRequests().antMatchers(StudiCaseConstant.LOGIN, "/register", StudiCaseConstant.CREATE_REGIST, StudiCaseConstant.EMAIL_VERIFICATION, StudiCaseConstant.LOGOUT).permitAll().
+                .authorizeRequests().antMatchers(StudiCaseConstant.LOGIN, "/register", StudiCaseConstant.CREATE_REGIST, StudiCaseConstant.EMAIL_VERIFICATION, StudiCaseConstant.LOGOUT, StudiCaseConstant.RESET_PASSWORD).permitAll().
                 // all other requests need to be authenticated
                         anyRequest().authenticated().and().logout().logoutUrl(StudiCaseConstant.LOGOUT).addLogoutHandler(logoutHandler).logoutSuccessHandler(((httpServletRequest, httpServletResponse, authentication) -> SecurityContextHolder.clearContext())).permitAll().and().
                 // make sure we use stateless session; session won't be used to

@@ -9,4 +9,5 @@ public class StudiCaseConstant {
     public static final String LOGIN = "/login";
     public static final String EMAIL_VERIFICATION = "/verify-email";
     public static final String LOGOUT = "/logout";
+    public static final String RESET_PASSWORD = "/reset-password";
 }

@@ -18,4 +18,13 @@ public class EmailService {
 
         javaMailSender.send(message);
     }
+
+    public void emailConfirmResetPassword(String to, String newPassword){
+        SimpleMailMessage mail = new SimpleMailMessage();
+        mail.setTo(to);
+        mail.setSubject("Confirmation Reset Password");
+        mail.setText("Selamat Password Anda telah direset cok nih password baru lo " + newPassword);
+
+        javaMailSender.send(mail);
+    }
 }

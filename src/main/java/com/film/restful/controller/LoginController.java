@@ -3,10 +3,16 @@ package com.film.restful.controller;
 import com.film.restful.config.security.config.JwtTokenUtil;
 import com.film.restful.constant.StudiCaseConstant;
 import com.film.restful.contract.request.LoginRequest;
+import com.film.restful.contract.request.RequestResetPassword;
 import com.film.restful.contract.response.ResponseLogin;
+import com.film.restful.contract.response.ResponseResetPassword;
+import com.film.restful.model.Registration;
+import com.film.restful.service.impl.EmailService;
 import com.film.restful.service.impl.JwtUserDetailsService;
+import com.film.restful.service.impl.UserServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.BadCredentialsException;
@@ -30,6 +36,12 @@ public class LoginController {
 
     @Autowired
     private JwtTokenUtil jwtTokenUtil;
+
+    @Autowired
+    private EmailService emailService;
+
+    @Autowired
+    private UserServiceImpl userService;
 
     @Autowired
     private JwtUserDetailsService userDetailsService;
@@ -75,5 +87,16 @@ public class LoginController {
         } catch (BadCredentialsException e) {
             throw new Exception("INVALID_CREDENTIALS", e);
         }
+    }
+
+    @PostMapping(StudiCaseConstant.RESET_PASSWORD)
+    public ResponseEntity<ResponseResetPassword> resetPassword(@RequestParam String email, @RequestParam String newPassword){
+        ResponseResetPassword response = new ResponseResetPassword();
+        emailService.emailConfirmResetPassword(email, newPassword);
+        userService.resetPassword(email, newPassword);
+        response.setCode("00");
+        response.setMessage("Selamat Password Anda telah di reset cek email untuk mendapatakan password baru");
+
+        return new ResponseEntity<>(response, HttpStatus.OK);
     }
 }

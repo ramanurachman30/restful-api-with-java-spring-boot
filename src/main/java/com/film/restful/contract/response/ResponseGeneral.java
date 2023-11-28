@@ -10,6 +10,7 @@ public class ResponseGeneral {
     private String description;
     private List<FilmRest> metadata;
     private Optional<FilmRest> metadataById;
+    private ResponseLayanan layanan;
     public String getCode() {
         return code;
     }
@@ -34,6 +35,11 @@ public class ResponseGeneral {
     public void setMetadataById(Optional<FilmRest> metadataById) {
         this.metadataById = metadataById;
     }
-    
+    public ResponseLayanan getLayanan() {
+        return layanan;
+    }
+    public void setLayanan(ResponseLayanan layanan) {
+        this.layanan = layanan;
+    }
     
 }

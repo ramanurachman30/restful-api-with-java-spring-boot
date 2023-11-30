@@ -1,0 +1,158 @@
+2023-11-30 22:26:31.189 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2023-11-30 22:26:31.195 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-11-30 22:26:31.196 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-11-30 22:26:31.322 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-11-30 22:26:32.218 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.2.Final}
+2023-11-30 22:26:32.224 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2023-11-30 22:26:32.227 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2023-11-30 22:26:32.320 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2023-11-30 22:26:32.708 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-11-30 22:26:32.984 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-11-30 22:26:33.023 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-11-30 22:26:33.626 [main] INFO  o.h.e.j.e.i.LobCreatorBuilderImpl - HHH000421: Disabling contextual LOB creation as hibernate.jdbc.lob.non_contextual_creation is true
+2023-11-30 22:26:33.636 [main] INFO  org.hibernate.type.BasicTypeRegistry - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@79a04e5f
+2023-11-30 22:26:37.859 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2023-11-30 22:33:13.108 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-30 22:34:01.945 [http-nio-8081-exec-7] INFO  c.f.r.controller.LayananController - GET ONE DATA
+2023-11-30 22:35:07.362 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2023-11-30 22:35:07.367 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-11-30 22:35:07.368 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-11-30 22:35:07.483 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-11-30 22:35:08.232 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.2.Final}
+2023-11-30 22:35:08.237 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2023-11-30 22:35:08.240 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2023-11-30 22:35:08.307 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2023-11-30 22:35:08.602 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-11-30 22:35:08.849 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-11-30 22:35:08.885 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-11-30 22:35:09.448 [main] INFO  o.h.e.j.e.i.LobCreatorBuilderImpl - HHH000421: Disabling contextual LOB creation as hibernate.jdbc.lob.non_contextual_creation is true
+2023-11-30 22:35:09.458 [main] INFO  org.hibernate.type.BasicTypeRegistry - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@1e1e9ef3
+2023-11-30 22:35:13.644 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2023-11-30 22:35:23.947 [http-nio-8081-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-30 22:35:25.796 [http-nio-8081-exec-2] INFO  c.f.r.controller.LayananController - GET ONE DATA
+2023-11-30 22:36:31.354 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2023-11-30 22:36:31.360 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-11-30 22:36:31.360 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-11-30 22:36:31.493 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-11-30 22:36:32.279 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.2.Final}
+2023-11-30 22:36:32.284 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2023-11-30 22:36:32.286 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2023-11-30 22:36:32.355 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2023-11-30 22:36:32.641 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-11-30 22:36:32.877 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-11-30 22:36:32.912 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-11-30 22:36:33.370 [main] INFO  o.h.e.j.e.i.LobCreatorBuilderImpl - HHH000421: Disabling contextual LOB creation as hibernate.jdbc.lob.non_contextual_creation is true
+2023-11-30 22:36:33.381 [main] INFO  org.hibernate.type.BasicTypeRegistry - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@623ebac7
+2023-11-30 22:36:37.457 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2023-11-30 22:37:23.745 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-30 22:37:25.498 [http-nio-8081-exec-1] INFO  c.f.r.controller.LayananController - GET ONE DATA {1}
+2023-11-30 22:38:30.168 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2023-11-30 22:38:30.174 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-11-30 22:38:30.174 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-11-30 22:38:30.320 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-11-30 22:38:31.116 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.2.Final}
+2023-11-30 22:38:31.122 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2023-11-30 22:38:31.124 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2023-11-30 22:38:31.203 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2023-11-30 22:38:31.545 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-11-30 22:38:31.776 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-11-30 22:38:31.814 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-11-30 22:38:32.303 [main] INFO  o.h.e.j.e.i.LobCreatorBuilderImpl - HHH000421: Disabling contextual LOB creation as hibernate.jdbc.lob.non_contextual_creation is true
+2023-11-30 22:38:32.312 [main] INFO  org.hibernate.type.BasicTypeRegistry - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@3dd31157
+2023-11-30 22:38:36.529 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2023-11-30 22:38:37.022 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-30 22:38:38.789 [http-nio-8081-exec-1] INFO  c.f.r.controller.LayananController - GET ONE DATA {1}
+2023-11-30 22:38:38.791 [http-nio-8081-exec-1] INFO  c.f.r.controller.LayananController - FOR RESPONSES com.film.restful.contract.response.ResponseLayanan@656f51ec
+2023-11-30 22:39:15.491 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2023-11-30 22:39:15.501 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-11-30 22:39:15.502 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-11-30 22:39:15.628 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-11-30 22:39:16.636 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.2.Final}
+2023-11-30 22:39:16.645 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2023-11-30 22:39:16.648 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2023-11-30 22:39:16.795 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2023-11-30 22:39:17.162 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-11-30 22:39:17.435 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-11-30 22:39:17.483 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-11-30 22:39:18.051 [main] INFO  o.h.e.j.e.i.LobCreatorBuilderImpl - HHH000421: Disabling contextual LOB creation as hibernate.jdbc.lob.non_contextual_creation is true
+2023-11-30 22:39:18.059 [main] INFO  org.hibernate.type.BasicTypeRegistry - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@31c628e7
+2023-11-30 22:39:22.035 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2023-11-30 22:39:22.232 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-30 22:39:24.072 [http-nio-8081-exec-1] INFO  c.f.r.controller.LayananController - GET ONE DATA {1}
+2023-11-30 22:39:24.073 [http-nio-8081-exec-1] INFO  c.f.r.controller.LayananController - FOR RESPONSES com.film.restful.contract.response.ResponseLayanan@4fa12d16
+2023-11-30 22:42:19.019 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2023-11-30 22:42:19.029 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-11-30 22:42:19.029 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-11-30 22:42:19.237 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-11-30 22:42:20.297 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.2.Final}
+2023-11-30 22:42:20.304 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2023-11-30 22:42:20.307 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2023-11-30 22:42:20.443 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2023-11-30 22:42:20.819 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-11-30 22:42:21.082 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-11-30 22:42:21.121 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-11-30 22:42:21.711 [main] INFO  o.h.e.j.e.i.LobCreatorBuilderImpl - HHH000421: Disabling contextual LOB creation as hibernate.jdbc.lob.non_contextual_creation is true
+2023-11-30 22:42:21.722 [main] INFO  org.hibernate.type.BasicTypeRegistry - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@79a04e5f
+2023-11-30 22:42:27.232 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2023-11-30 22:42:32.104 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-30 23:04:30.432 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2023-11-30 23:04:30.438 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-11-30 23:04:30.439 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-11-30 23:04:30.585 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-11-30 23:04:31.384 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.2.Final}
+2023-11-30 23:04:31.392 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2023-11-30 23:04:31.393 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2023-11-30 23:04:31.503 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2023-11-30 23:04:31.888 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-11-30 23:04:32.212 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-11-30 23:04:32.262 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-11-30 23:04:32.852 [main] INFO  o.h.e.j.e.i.LobCreatorBuilderImpl - HHH000421: Disabling contextual LOB creation as hibernate.jdbc.lob.non_contextual_creation is true
+2023-11-30 23:04:32.865 [main] INFO  org.hibernate.type.BasicTypeRegistry - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@34780cd9
+2023-11-30 23:04:37.908 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2023-11-30 23:06:59.839 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-30 23:07:01.762 [http-nio-8081-exec-1] INFO  c.f.r.controller.LayananController - UPDATED PROCESSING
+2023-11-30 23:07:27.095 [http-nio-8081-exec-4] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2023-11-30 23:07:27.293 [http-nio-8081-exec-4] INFO  c.f.r.controller.LayananController - DATA GENERATED
+2023-11-30 23:18:22.243 [http-nio-8081-exec-6] INFO  c.f.r.controller.LayananController - DATA GENERATED
+2023-11-30 23:39:00.671 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2023-11-30 23:39:00.676 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-11-30 23:39:00.677 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-11-30 23:39:00.801 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-11-30 23:39:01.792 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.2.Final}
+2023-11-30 23:39:01.797 [restartedMain] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2023-11-30 23:39:01.800 [restartedMain] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2023-11-30 23:39:01.895 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2023-11-30 23:39:02.285 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-11-30 23:39:02.605 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-11-30 23:39:02.664 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-11-30 23:39:03.480 [restartedMain] INFO  o.h.e.j.e.i.LobCreatorBuilderImpl - HHH000421: Disabling contextual LOB creation as hibernate.jdbc.lob.non_contextual_creation is true
+2023-11-30 23:39:03.499 [restartedMain] INFO  org.hibernate.type.BasicTypeRegistry - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@7c6daae6
+2023-11-30 23:39:09.076 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2023-11-30 23:40:20.537 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-30 23:40:33.559 [http-nio-8081-exec-3] INFO  c.f.r.controller.LayananController - GET ONE DATA {1}
+2023-11-30 23:40:45.499 [http-nio-8081-exec-4] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2023-11-30 23:40:45.675 [http-nio-8081-exec-4] INFO  c.f.r.controller.LayananController - DATA GENERATED
+2023-11-30 23:41:15.627 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-11-30 23:41:15.632 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-11-30 23:41:16.951 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2023-11-30 23:41:16.952 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-11-30 23:41:16.952 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-11-30 23:41:16.971 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-11-30 23:41:17.118 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2023-11-30 23:41:17.209 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2023-11-30 23:41:17.210 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-11-30 23:41:17.440 [restartedMain] INFO  o.h.e.j.e.i.LobCreatorBuilderImpl - HHH000421: Disabling contextual LOB creation as hibernate.jdbc.lob.non_contextual_creation is true
+2023-11-30 23:41:17.441 [restartedMain] INFO  org.hibernate.type.BasicTypeRegistry - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@7c6daae6
+2023-11-30 23:41:18.611 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2023-11-30 23:44:36.860 [Thread-10] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2023-11-30 23:44:36.865 [Thread-10] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2023-11-30 23:44:37.935 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2023-11-30 23:44:37.935 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-11-30 23:44:37.936 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-11-30 23:44:37.950 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-11-30 23:44:38.044 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2023-11-30 23:44:38.117 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2023-11-30 23:44:38.117 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-11-30 23:44:38.276 [restartedMain] INFO  o.h.e.j.e.i.LobCreatorBuilderImpl - HHH000421: Disabling contextual LOB creation as hibernate.jdbc.lob.non_contextual_creation is true
+2023-11-30 23:44:38.277 [restartedMain] INFO  org.hibernate.type.BasicTypeRegistry - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@7c6daae6
+2023-11-30 23:44:39.280 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]

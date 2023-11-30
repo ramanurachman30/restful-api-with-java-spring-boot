@@ -17,5 +17,6 @@ public class StudiCaseConstant {
     public static final String GET_ONE_LAYANAN = LAYANAN + "/get-layanan/{id}";
     public static final String GET_ALL_LAYANAN = LAYANAN + "/get-all-layanan";
     public static final String CREATE_LAYANAN = LAYANAN + "/create-layanan";
-    public static final String EDIT_LAYANAN = LAYANAN + "/edit-layanan";
+    public static final String EDIT_LAYANAN = LAYANAN + "/edit-layanan/{id}";
+    public static final String DELETE_BYID_LAYANAN = LAYANAN + "/delete-byId-layanan/{id}";
 }

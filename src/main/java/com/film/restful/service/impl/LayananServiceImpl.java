@@ -29,4 +29,9 @@ public class LayananServiceImpl implements LayananService{
     public Layanan getDatabyId(long id) {
         return layananRepository.getByIdLayanan(id);
     }
+
+    @Override
+    public void deleteLayananByid(long id) {
+        layananRepository.deleteById(id);
+    }
 }

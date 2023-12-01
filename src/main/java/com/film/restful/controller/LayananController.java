@@ -59,6 +59,10 @@ public class LayananController {
         Layanan layanan = new Layanan();
         layanan.setName(requestLayanan.getName());
         layanan.setDescription(requestLayanan.getDeskripsi());
+        layanan.setHarga(requestLayanan.getHarga());
+        layanan.setJadwal(requestLayanan.getJadwal());
+        layanan.setDurasiMenu(requestLayanan.getDurasiMenu());
+        layanan.setListLatihan(requestLayanan.getListLatihan());
         layananService.save(layanan);
         log.info("SAVE PROCESSING");
 
@@ -86,6 +90,10 @@ public class LayananController {
         Layanan layanan = layananService.getDatabyId(id);
         layanan.setName(req.getName());
         layanan.setDescription(req.getDeskripsi());
+        layanan.setHarga(req.getHarga());
+        layanan.setJadwal(req.getJadwal());
+        layanan.setDurasiMenu(req.getDurasiMenu());
+        layanan.setListLatihan(req.getListLatihan());
         layananService.save(layanan);
         log.info("UPDATED PROCESSING");
 

@@ -29,6 +29,18 @@ public class Layanan implements Serializable{
 
     @Column(name = "deskripsi", length = 255)
     private String description;
+
+    @Column(name = "harga", length = 200)
+    private String harga;
+
+    @Column(name = "jadwal", length = 200)
+    private String jadwal;
+
+    @Column(name = "durasi_menu", length = 100)
+    private String durasiMenu;
+
+    @Column(name = "list_latihan", length = 100)
+    private String listLatihan;
     
     public Long getId() {
         return id;
@@ -48,6 +60,30 @@ public class Layanan implements Serializable{
     public void setDescription(String description) {
         this.description = description;
     }
-
+    public String getHarga() {
+        return harga;
+    }
+    public void setHarga(String harga) {
+        this.harga = harga;
+    }
+    public String getJadwal() {
+        return jadwal;
+    }
+    public void setJadwal(String jadwal) {
+        this.jadwal = jadwal;
+    }
+    public String getDurasiMenu() {
+        return durasiMenu;
+    }
+    public void setDurasiMenu(String durasiMenu) {
+        this.durasiMenu = durasiMenu;
+    }
+    public String getListLatihan() {
+        return listLatihan;
+    }
+    public void setListLatihan(String listLatihan) {
+        this.listLatihan = listLatihan;
+    }
+    
     
 }

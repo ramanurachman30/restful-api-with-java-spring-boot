@@ -46,7 +46,7 @@ public class LoginController {
     @Autowired
     private JwtUserDetailsService userDetailsService;
 
-    @RequestMapping(value = StudiCaseConstant.LOGIN, method = RequestMethod.POST)
+    @PostMapping(StudiCaseConstant.LOGIN)
     public ResponseEntity<ResponseLogin> createAuthenticationToken(@RequestBody LoginRequest authenticationRequest) throws Exception {
 
         ResponseLogin response = new ResponseLogin();

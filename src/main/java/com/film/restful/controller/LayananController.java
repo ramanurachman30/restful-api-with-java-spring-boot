@@ -62,13 +62,14 @@ public class LayananController {
         layanan.setHarga(requestLayanan.getHarga());
         layanan.setJadwal(requestLayanan.getJadwal());
         layanan.setDurasiMenu(requestLayanan.getDurasiMenu());
-        layanan.setListLatihan(requestLayanan.getListLatihan());
+        layanan.setListsLatihan(requestLayanan.getListsLatihan());
         layananService.save(layanan);
         log.info("SAVE PROCESSING");
 
         ResponseLayanan response = new ResponseLayanan();
         response.setCode("00");
         response.setDescription("Data has been creating");
+        response.setData(layanan);
         return new ResponseEntity<>(response, HttpStatus.OK);
     }
 
@@ -93,7 +94,7 @@ public class LayananController {
         layanan.setHarga(req.getHarga());
         layanan.setJadwal(req.getJadwal());
         layanan.setDurasiMenu(req.getDurasiMenu());
-        layanan.setListLatihan(req.getListLatihan());
+        layanan.setListsLatihan(req.getListsLatihan());
         layananService.save(layanan);
         log.info("UPDATED PROCESSING");
 

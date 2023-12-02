@@ -6,7 +6,7 @@ public class RequestLayanan {
     private String harga;
     private String jadwal;
     private String durasiMenu;
-    private String listLatihan;
+    private String listsLatihan;
     public String getName() {
         return name;
     }
@@ -37,11 +37,11 @@ public class RequestLayanan {
     public void setDurasiMenu(String durasiMenu) {
         this.durasiMenu = durasiMenu;
     }
-    public String getListLatihan() {
-        return listLatihan;
+    public String getListsLatihan() {
+        return listsLatihan;
     }
-    public void setListLatihan(String listLatihan) {
-        this.listLatihan = listLatihan;
+    public void setListsLatihan(String listsLatihan) {
+        this.listsLatihan = listsLatihan;
     }
     
 }

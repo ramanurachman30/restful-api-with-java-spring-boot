@@ -8,6 +8,6 @@ import com.film.restful.model.ListLatihan;
 
 @Repository
 public interface ListLatihanRepository extends JpaRepository<ListLatihan, Long>{
-    @Query(value = "SELECT * FROM ListLatihan ll where ll.id=1?", nativeQuery = true)
+    @Query(value = "SELECT * FROM ListLatihan ll where ll.id=?1", nativeQuery = true)
     ListLatihan getById(long id);
 }

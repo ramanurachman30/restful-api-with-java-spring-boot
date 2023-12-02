@@ -39,8 +39,8 @@ public class Layanan implements Serializable{
     @Column(name = "durasi_menu", length = 100)
     private String durasiMenu;
 
-    @Column(name = "list_latihan", length = 100)
-    private String listLatihan;
+    @Column(name = "lists_latihan", length = 100)
+    private String listsLatihan;
     
     public Long getId() {
         return id;
@@ -78,11 +78,11 @@ public class Layanan implements Serializable{
     public void setDurasiMenu(String durasiMenu) {
         this.durasiMenu = durasiMenu;
     }
-    public String getListLatihan() {
-        return listLatihan;
+    public String getListsLatihan() {
+        return listsLatihan;
     }
-    public void setListLatihan(String listLatihan) {
-        this.listLatihan = listLatihan;
+    public void setListsLatihan(String listsLatihan) {
+        this.listsLatihan = listsLatihan;
     }
     
     
